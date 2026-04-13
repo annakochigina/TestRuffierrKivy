@@ -74,6 +74,7 @@ class FirstScr(Screen):
             else:
                 app.user_store.user_age = int(self.input_age.text)
             self.manager.current = 'pulse1'
+            print('test')
 
 class PulseScr(Screen):
     def __init__(self, **kwargs):
